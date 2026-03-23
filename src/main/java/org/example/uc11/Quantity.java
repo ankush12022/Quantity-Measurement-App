@@ -53,7 +53,7 @@ public class Quantity<U extends IMeasurable> {
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
-        if (!(obj instanceof UC10.Quantity<?>)) return false;
+        if (!(obj instanceof Quantity<?>)) return false;
 
         Quantity<?> that = (Quantity<?>) obj;
 
